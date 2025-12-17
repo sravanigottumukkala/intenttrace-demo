@@ -1,0 +1,5 @@
+Checkout System Requirements
+
+1. Payment retries must be capped at 2 attempts to avoid rate limiting.
+2. Checkout must fail gracefully on payment errors.
+3. UI must not block while payment is processed.
