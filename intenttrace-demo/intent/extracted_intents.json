@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "intent_id": "INTENT_001",
+    "statement": "Payment retries must be capped at 2 attempts",
+    "source": "checkout_prd.txt",
+    "affected_files": ["backend/payment_gateway.py"],
+    "risk": "Rate limiting"
+  }
+]
